@@ -1,1 +1,5 @@
-# Mini-Project
+This mini project is a lightweight, responsive web page built entirely using HTML and CSS. It is designed to demonstrate clean code structure, semantic markup, and modern design principles without relying on JavaScript or external frameworks. The goal of this project is to showcase how simple technologies can be used to build elegant, fast, and user-friendly web interfaces.
+
+The project includes a well-structured index.html file that follows HTML5 standards, along with a custom style.css file that handles layout, design, and responsiveness. CSS Flexbox and Grid are used to organize content effectively, ensuring the design adjusts well across different screen sizes, making the project mobile-friendly. The design also integrates modern visual elements such as custom fonts, hover effects, and minimal animations to enhance user experience.
+
+No additional libraries or dependencies are required. To run the project, simply clone the repository and open the index.html file in any modern web browser. This makes it ideal for beginners learning front-end basics, as well as for showcasing small UI concepts, components, or landing pages
