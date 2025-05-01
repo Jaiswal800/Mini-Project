@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CricketLive - Real-time Cricket Scores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <a href="/">
+                        <span class="logo-icon">🏏</span>
+                        <span class="logo-text">CricketLive</span>
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/" class="active">Live Scores</a></li>
+                    <li><a href="/schedule">Schedule</a></li>
+                    <li><a href="/teams">Teams</a></li>
+                    <li><a href="/players">Players</a></li>
+                    <li><a href="/news">News</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <a href="/login" class="btn btn-primary">Login</a>
+                    <button class="menu-toggle">☰</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Live Cricket Scores & Updates</h1>
+                    <p>Stay updated with real-time cricket scores, match schedules, and player statistics from around the world.</p>
+                    <div class="hero-buttons">
+                        <a href="/live-scores" class="btn btn-primary">Live Scores</a>
+                        <a href="/schedule" class="btn btn-outline">Match Schedule</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.pexels.com/photos/3601588/pexels-photo-3601588.jpeg" alt="Cricket Match">
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Matches Section -->
+        <section class="live-matches">
+            <div class="container">
+                <div class="section-header">
+                    <div class="live-indicator">
+                        <span class="pulse"></span>
+                        <h2>Live Matches</h2>
+                    </div>
+                    <a href="/live-scores" class="view-all">View All →</a>
+                </div>
+                <div class="match-cards">
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-type">ODI</span>
+                            <span class="match-venue">Melbourne Cricket Ground</span>
+                        </div>
+                        <div class="match-content">
+                            <div class="team">
+                                <div class="team-logo">IND</div>
+                                <span class="team-name">India</span>
+                                <div class="team-score">287/6 (42.5)</div>
+                            </div>
+                            <div class="team">
+                                <div class="team-logo">AUS</div>
+                                <span class="team-name">Australia</span>
+                                <div class="team-score">256/10 (48.2)</div>
+                            </div>
+                        </div>
+                        <div class="match-footer">
+                            <span class="match-status">India needs 30 runs in 43 balls</span>
+                            <a href="/match/details" class="btn btn-text">View Details →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Tournaments -->
+        <section class="tournaments">
+            <div class="container">
+                <h2>Featured Tournaments</h2>
+                <div class="tournament-cards">
+                    <div class="tournament-card">
+                        <div class="tournament-logo">🏆</div>
+                        <h3>ICC World Cup</h3>
+                        <p>Follow all the action from the World Cup</p>
+                        <a href="/tournaments/world-cup" class="btn btn-text">View Tournament →</a>
+                    </div>
+                    <div class="tournament-card">
+                        <div class="tournament-logo">🏆</div>
+                        <h3>T20 World Cup</h3>
+                        <p>Follow all the action from the T20 World Cup</p>
+                        <a href="/tournaments/t20-world-cup" class="btn btn-text">View Tournament →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section class="newsletter">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for match updates and news</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <span class="logo-icon">🏏</span>
+                        <span class="logo-text">CricketLive</span>
+                    </div>
+                    <p>Your ultimate destination for live cricket scores and updates.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/live-scores">Live Scores</a></li>
+                        <li><a href="/schedule">Schedule</a></li>
+                        <li><a href="/teams">Teams</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Tournaments</h3>
+                    <ul>
+                        <li><a href="/tournaments/world-cup">World Cup</a></li>
+                        <li><a href="/tournaments/t20-world-cup">T20 World Cup</a></li>
+                        <li><a href="/tournaments/ipl">IPL</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CricketLive. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
